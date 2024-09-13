@@ -1,5 +1,5 @@
 <!-- Analizzando lo screenshot fornito da Tiziano posso pensare che la struttura della pagina sia costituita da un header
- che comprende il primo titolo (presumibilmente h1) e le tre fotografie, dopodichè un body con i vari elenchi, tabelle ed entità  
+ che comprende il primo titolo (presumibilmente h1) e le tre fotografie, dopodichè un main con i vari elenchi, tabelle ed entità  
  ed infine un footer comprensivo di foto cche potrebbero fare da "outro"-->
 
 
@@ -15,6 +15,57 @@
     <title>Il mio Viaggio a Londra</title>
 </head>
 <body>
+<!--header con titolo, immagini ed hr per introdurre il body--> 
+    <header>    
+        <h1>Il mio Viaggio a Londra</h1>
+        <img src="./img/ruota.jpg" alt="panorama1">
+        <img src="./img/ruota-2.jpg" alt="panorama2">
+        <img src="./img/ruota-3.jpg" alt="panorama3">
+        <hr>
+    </header>
+<!--Inizio main con liste, tabelle ed entities-->
+    <main>
+    <h2>Le mie spese</h2>
+<!--Inizio tabella spese-->
+    <table>
     
+        <thead>
+            <th>Numero</th>
+            <th>Descrizione</th>
+            <th>Costo</th>
+        </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Biglietto Aereo</td>
+            <td>120&euro;</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Biglietto Aereo</td>
+            <td>120&euro;</td>
+        </tr>
+
+         <tr>
+             <td>1</td>
+             <td>Biglietto Aereo</td>
+             <td>120&euro;</td>
+        </tr>
+
+    </tbody>
+  
+        <tfoot>
+            <tr>
+                <tdcolspan="2">Totale</td>
+                <td>360&euro;</td>
+            </tr>
+        </tfoot>
+    </table>
+<!--Fine tabella-->
+<hr>
+
+</main>
 </body>
 </html>
